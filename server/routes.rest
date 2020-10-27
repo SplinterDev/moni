@@ -1,0 +1,31 @@
+GET http://localhost:3000/api HTTP/1.1
+
+###
+# List Users
+GET http://localhost:3000/api/users HTTP/1.1
+
+###
+# Create User
+POST http://localhost:3000/api/users HTTP/1.1
+content-type: application/json
+
+{
+  "name": "MyUser"
+}
+
+###
+# Get User
+GET http://localhost:3000/api/users/id HTTP/1.1
+
+###
+# Remove User
+DELETE http://localhost:3000/api/users/id HTTP/1.1
+
+###
+# Update User
+PATCH http://localhost:3000/api/users/id HTTP/1.1
+content-type: application/json
+
+{
+  "name": "YourUser"
+}
