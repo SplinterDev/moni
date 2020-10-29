@@ -1,0 +1,44 @@
+:root {
+  --turquoise: #017374;
+  --pale-blue: #D0FEFE;
+  --dark-blue: #1F3B4D;
+}
+
+html, body, #root, .App {
+  min-height: 100%;
+  height: 100%;
+}
+
+.App {
+
+  display: grid;
+  grid-template-columns: 12% auto;
+  grid-template-rows: 50px auto;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  header {
+    grid-column: span 2;
+    background-color: var(--pale-blue);
+    color: var(--dark-blue);
+  }
+
+  nav, main {
+    color: var(--pale-blue)
+  }
+
+  nav {
+    background-color: var(--turquoise);
+  }
+
+  main {
+    background-color: var(--dark-blue);
+  }
+
+
+
+}

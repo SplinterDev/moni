@@ -15,12 +15,16 @@ A simple app to manage my finances
 
 | Account |
 | - |
-| name: String |
-| transactions: [Transaction] |
+| name: `String` |
+| transactions: `[Transaction]` |
 
 | Transaction |
 | - |
-| description: String |
-| tags: [String] |
-| value: Number |
-| date: Date |
+| description: `String` |
+| tags: `[String]` |
+| value: `Number` |
+| date: `Date` |
+
+| Tag |
+| - |
+| name: `String` |

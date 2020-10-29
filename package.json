@@ -1,5 +1,5 @@
 {
-  "name": "express-react-boilerplate",
+  "name": "moni",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,8 +14,11 @@
     "express": "^4.17.1",
     "helmet": "^4.1.1",
     "mongoose": "^5.10.6",
+    "node-sass": "^4.14.1",
+    "normalize.css": "^8.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.0"
   },
   "scripts": {
