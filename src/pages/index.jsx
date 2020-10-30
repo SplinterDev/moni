@@ -1,9 +1,10 @@
 import React from 'react';
+import PieChart from '../components/PieChart/PieChart';
 
 function HomePage() {
   return (
     <div>
-      home
+      <PieChart height={100} width={100} />
     </div>
   )
 }
